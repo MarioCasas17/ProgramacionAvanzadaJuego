@@ -2,7 +2,7 @@
 
 ## Descripcion
 
-Este es mi proyecto de un videojuego Burger Time
+Este es mi proyecto de un videojuego llamado Burger Time
 
 ## Dependencias 
 Para instalar plant uml se necesita el siguiente comando
@@ -11,7 +11,10 @@ sudo apt-get update
 
 ## Contacto
 
-Para contribuir mandar mensaje a 
+Para contribuir mandar mensaje a @MarioCasas17
+
+## Concepto 
+!Juego Original BurguerTime[https://pixelmaniacos.com/wp-content/uploads/2020/02/burgertime_banner.png]
 
 ## Frase 
-> "Mas vale pajaro en mano"
+> "Camaron que se duerme, se lo lleva la corriente"
