@@ -14,7 +14,7 @@ sudo apt-get update
 Para contribuir mandar mensaje a @MarioCasas17
 
 ## Concepto 
-!Juego Original BurguerTime[https://pixelmaniacos.com/wp-content/uploads/2020/02/burgertime_banner.png]
+![Juego Original BurguerTime](https://pixelmaniacos.com/wp-content/uploads/2020/02/burgertime_banner.png)
 
 ## Frase 
 > "Camaron que se duerme, se lo lleva la corriente"
