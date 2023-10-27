@@ -1,0 +1,56 @@
+@startuml
+class BurgerTime 
+class Escenario 
+class Personaje
+class Datos 
+class Chef 
+class Salchicha
+class Huevo
+class Escalera
+class Plataforma
+class Vida
+class Pimienta
+class Punto
+class PanSuperior 
+class Carne 
+class PanInferior
+class Lechuga
+class Enemigo
+class PersonajeJugable
+class Jugador
+class Juego
+
+Jugador o--Juego
+Juego <|--BurgerTime
+Chef o--Pimienta
+BurgerTime *-- Escenario
+BurgerTime*-- Personaje
+BurgerTime*-- Datos
+Datos<|--Pimienta
+Datos<|--Vida
+Datos<|--Punto
+Escenario*-- Escalera
+Escenario*-- Plataforma
+Escenario*-- PanInferior
+Escenario*-- PanSuperior
+Escenario*-- Carne
+Personaje*-- Enemigo
+Personaje*-- PersonajeJugable
+PersonajeJugable<|--Chef
+Enemigo<|-- Salchicha
+Enemigo<|-- Huevo
+Huevo o-- Pimienta
+Chef o-- Escalera
+Chef o-- Plataforma
+Chef o-- PanInferior
+Chef o-- PanSuperior
+Chef o-- Lechuga
+Chef o-- Carne
+Huevo o-- Escalera
+Huevo o-- Plataforma
+Salchicha o-- Escalera
+Escenario*-- Lechuga
+Salchicha o-- Plataforma
+Chef *--Vida
+Jugador*--Punto
+@endluml
