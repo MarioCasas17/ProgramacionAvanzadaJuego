@@ -1,5 +1,4 @@
 #pragma once
-
 #include <curses.h>
 #include <unistd.h>
 #include <list>

@@ -7,7 +7,6 @@
 #include <Ventana.hpp>
 #include <Actualizable.hpp>
 #include <Chef.hpp>
-#include <Datos.hpp>
 #include <Salchicha.hpp>
 #include <BurgerTime.hpp>
 #include <Escalera.hpp>
@@ -19,7 +18,6 @@ int main(int argc, char const *argv[])
 {
     Ventana ventana;
     Chef *Chef1 = new Chef(10, 70);
-    Datos *Dato1 = new Datos(20, 0);
     Salchicha *Salchicha1 = new Salchicha(180, 10);
     BurgerTime *Titulo1 = new BurgerTime(80, 0);
     Escalera *Escalera1 = new Escalera(164, 60);
@@ -28,15 +26,14 @@ int main(int argc, char const *argv[])
     Escalera *Escalera4 = new Escalera(112, 60);
     Escalera *Escalera5 = new Escalera(112, 40);
     Escalera *Escalera6 = new Escalera(164, 40);
-    Plataforma *Plataforma1= new Plataforma(80,60);
-    Plataforma *Plataforma2= new Plataforma(132,60);
-    Plataforma *Plataforma3= new Plataforma(10,60);
-    Plataforma *Plataforma4= new Plataforma(182,60);
-    Plataforma *Plataforma5= new Plataforma(132,40);
+    Plataforma *Plataforma1 = new Plataforma(80, 60);
+    Plataforma *Plataforma2 = new Plataforma(132, 60);
+    Plataforma *Plataforma3 = new Plataforma(10, 60);
+    Plataforma *Plataforma4 = new Plataforma(182, 60);
+    Plataforma *Plataforma5 = new Plataforma(132, 40);
 
     list<Dibujo *> dibujos;
     dibujos.push_back(Chef1);
-    dibujos.push_back(Dato1);
     dibujos.push_back(Salchicha1);
     dibujos.push_back(Titulo1);
     dibujos.push_back(Escalera1);
@@ -52,13 +49,8 @@ int main(int argc, char const *argv[])
     dibujos.push_back(Plataforma4);
     dibujos.push_back(Plataforma5);
 
-
-
-
-
     list<Actualizable *> actualizables;
     actualizables.push_back(Chef1);
-    actualizables.push_back(Dato1);
     actualizables.push_back(Salchicha1);
     actualizables.push_back(Titulo1);
     actualizables.push_back(Escalera1);
@@ -66,7 +58,7 @@ int main(int argc, char const *argv[])
     actualizables.push_back(Escalera3);
     actualizables.push_back(Escalera4);
     actualizables.push_back(Plataforma1);
-    
+
     getch();
 
     while (true)
@@ -85,11 +77,11 @@ int main(int argc, char const *argv[])
         {
             Chef1->DesplazarDerecha();
         }
-         if (key == 'w' || key == KEY_UP)
+        if (key == 'w' || key == KEY_UP)
         {
             Chef1->DesplazarArriba();
         }
-         if (key == 's' || key == KEY_DOWN)
+        if (key == 's' || key == KEY_DOWN)
         {
             Chef1->DesplazarAbajo();
         }

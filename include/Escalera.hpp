@@ -9,15 +9,14 @@ private:
 public:
     Escalera() : Dibujo("Escalera")
     {
-
     }
-    Escalera(int x, int y): Dibujo(x,y,"Escalera"){
-
-    }
-     void Actualizar()
+    Escalera(int x, int y) : Dibujo(x, y, "Escalera")
     {
-        //this->x += 1;
-        //this->y += 0;
+    }
+    void Actualizar()
+    {
+        // this->x += 1;
+        // this->y += 0;
     }
     ~Escalera() {}
 };
