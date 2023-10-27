@@ -24,5 +24,11 @@ public:
     void DesplazarDerecha (){
         this ->x +=1;
     }
+    void DesplazarArriba (){
+        this ->y -=1;
+    }
+    void DesplazarAbajo (){
+        this ->y +=1;
+    }
     ~Chef() {}
 };
